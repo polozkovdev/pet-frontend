@@ -1,0 +1,11 @@
+:root {
+  --font-family-main: Lato, sans-serif;
+
+  --font-size-m: 16px;
+  --line-height-m: 24px;
+  --font-m: var(--line-height-m)/var(--font-size-m) var(--font-family-main);
+
+  --font-size-l: 24px;
+  --line-height-l: 32px;
+  --font-l: var(--line-height-l)/var(--font-size-l) var(--font-family-main);
+}
