@@ -1,4 +1,4 @@
-import {IBuildOptions} from "./types/config";
+import { IBuildOptions } from "./types/config";
 import webpack from "webpack";
 
 export const resolves = (options: IBuildOptions): webpack.ResolveOptions => ({
@@ -6,5 +6,5 @@ export const resolves = (options: IBuildOptions): webpack.ResolveOptions => ({
   preferAbsolute: true,
   modules: [options.paths.src, "node_modules"],
   mainFiles: ["index"],
-  alias: {}
-})
+  alias: {},
+});

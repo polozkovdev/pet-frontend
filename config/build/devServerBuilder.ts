@@ -1,8 +1,10 @@
-import {IBuildOptions} from "./types/config";
+import { IBuildOptions } from "./types/config";
 import path from "path";
-import {Configuration as DevServerConfiguration} from "webpack-dev-server";
+import { Configuration as DevServerConfiguration } from "webpack-dev-server";
 
-export const devServerBuilder = ({port}: IBuildOptions): DevServerConfiguration => {
+export const devServerBuilder = ({
+  port,
+}: IBuildOptions): DevServerConfiguration => {
   return {
     port,
     open: true,
@@ -11,5 +13,5 @@ export const devServerBuilder = ({port}: IBuildOptions): DevServerConfiguration 
     },
     historyApiFallback: true,
     hot: true,
-  }
-}
+  };
+};
