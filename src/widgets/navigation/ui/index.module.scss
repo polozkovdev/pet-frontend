@@ -1,0 +1,26 @@
+.Navigation {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Theme {
+  margin-left: auto;
+}
+
+.Links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Link {
+  &:hover {
+    color: red;
+  }
+  &:last-child {
+    margin-left: 10px;
+  }
+}

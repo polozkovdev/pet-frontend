@@ -10,5 +10,6 @@ export const devServerBuilder = ({port}: IBuildOptions): DevServerConfiguration 
       directory: path.join(__dirname, "dev"),
     },
     historyApiFallback: true,
+    hot: true,
   }
 }
